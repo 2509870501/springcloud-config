@@ -20,7 +20,7 @@ eureka:
 server:
   port: 6002
 spring:
-  profiles: test#测试环境
+  profiles: test #测试环境
   application:
     name: config-client-test
 eureka:
