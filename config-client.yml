@@ -6,7 +6,7 @@
 ---
 
 server:
-  port 6001
+  port: 6001
 spring:
   profiles: dev #开发环境
   application:
@@ -18,7 +18,7 @@ eureka:
 
 ---
 server:
-  port 6002
+  port: 6002
 spring:
   profiles: test#测试环境
   application:
